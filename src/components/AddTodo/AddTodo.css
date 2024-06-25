@@ -7,8 +7,9 @@
   justify-content: center;
   gap: 20px;
   padding: 10px;
-  width: 30%;
-  margin: 20px auto;
+  width: 100%; /* Adjusted width to fill the parent container */
+  max-width: 600px; /* Added max-width for responsiveness */
+  margin: 20px auto; /* Center align and add margin */
   background-color: #f0f0f0;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);

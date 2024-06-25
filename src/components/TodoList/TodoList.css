@@ -7,17 +7,18 @@
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
+  margin: 20px auto; /* Center align and add margin */
   box-sizing: border-box;
-  animation: slideInRight 0.5s ease forwards;
+  animation: fadeInUp 0.5s ease forwards; /* Changed animation name for clarity */
 }
 
-@keyframes slideInRight {
+@keyframes fadeInUp {
   0% {
     opacity: 0;
-    transform: translateX(20px);
+    transform: translateY(20px);
   }
   100% {
     opacity: 1;
-    transform: translateX(0);
+    transform: translateY(0);
   }
 }
